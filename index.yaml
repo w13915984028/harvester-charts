@@ -1,58 +1,16 @@
 apiVersion: v1
 entries:
-  harvester-load-balancer:
+  harvester-networkfs-manager:
   - apiVersion: v2
-    appVersion: v0.4.0
-    created: "2024-08-29T13:27:58.918942822Z"
-    description: A load balancer implementation for Harvester
-    digest: e45b8a1dd2a6e815b4c3ad169eec33c02d73c548b44315b691e53532c7c3c5d0
-    home: https://github.com/harvester/harvester-load-balancer
+    appVersion: 0.1.0
+    created: "2024-09-10T10:05:19.244774325Z"
+    description: A Helm chart for Harvester Network Filesystem Manager
+    digest: a10a576aabb12c2931aa3d89d34aae77927f398f6b72c6a81e80a9ce6e9da701
     maintainers:
     - name: harvester
-    name: harvester-load-balancer
-    sources:
-    - https://github.com/harvester/harvester-load-balancer
+    name: harvester-networkfs-manager
     type: application
     urls:
-    - https://github.com/w13915984028/harvester-charts/releases/download/harvester-load-balancer-0.4.0/harvester-load-balancer-0.4.0.tgz
-    version: 0.4.0
-  harvester-network-controller:
-  - apiVersion: v2
-    appVersion: v0.5.1
-    created: "2024-08-29T13:27:59.083228372Z"
-    description: A Helm chart for Harvester Network Controller
-    digest: 2e75caeeee696671fca32fcc635d4e98b59ec5b8b8118c495c585356c17c0be8
-    maintainers:
-    - name: harvester
-    name: harvester-network-controller
-    type: application
-    urls:
-    - https://github.com/w13915984028/harvester-charts/releases/download/harvester-network-controller-0.5.1/harvester-network-controller-0.5.1.tgz
-    version: 0.5.1
-  harvester-node-disk-manager:
-  - apiVersion: v2
-    appVersion: v0.7.1
-    created: "2024-08-29T13:27:59.254349469Z"
-    description: A Helm chart for Harvester Node Disk Manager
-    digest: 0cb4b5186ebe0971836e6727e110a1f5a905ecc5a9b18ea72d14c91b51865faf
-    maintainers:
-    - name: harvester
-    name: harvester-node-disk-manager
-    type: application
-    urls:
-    - https://github.com/w13915984028/harvester-charts/releases/download/harvester-node-disk-manager-0.7.2/harvester-node-disk-manager-0.7.2.tgz
-    version: 0.7.2
-  harvester-node-manager:
-  - apiVersion: v2
-    appVersion: v0.3.1
-    created: "2024-08-29T13:27:59.413678487Z"
-    description: A Helm chart for Harvester Node Manager
-    digest: 9f70cf0061582c8485895ccf8f100f9c0ce05e7296d7151db417677d2d254450
-    maintainers:
-    - name: harvester
-    name: harvester-node-manager
-    type: application
-    urls:
-    - https://github.com/w13915984028/harvester-charts/releases/download/harvester-node-manager-0.3.1/harvester-node-manager-0.3.1.tgz
-    version: 0.3.1
-generated: "2024-08-29T13:27:59.41368535Z"
+    - https://github.com/w13915984028/harvester-charts/releases/download/harvester-networkfs-manager-0.1.0/harvester-networkfs-manager-0.1.0.tgz
+    version: 0.1.0
+generated: "2024-09-10T10:05:19.244811855Z"
