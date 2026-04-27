@@ -151,6 +151,24 @@ entries:
     urls:
     - https://github.com/w13915984028/harvester-charts/releases/download/harvester-seeder-1.7.0-rc2/harvester-seeder-1.7.0-rc2.tgz
     version: 1.7.0-rc2
+  harvester-upgrade-manager:
+  - annotations:
+      kubebuilder.io/generated-by: kubebuilder
+    apiVersion: v2
+    appVersion: main-head
+    created: "2026-04-27T07:47:27.570307954Z"
+    description: A Helm chart to distribute harvester-upgrade-manager
+    digest: b7ce62cb01acfa88a2a40f6640e0b865a02e301157763064648088c290bd6276
+    keywords:
+    - kubernetes
+    - operator
+    maintainers:
+    - name: harvester
+    name: harvester-upgrade-manager
+    type: application
+    urls:
+    - https://github.com/w13915984028/harvester-charts/releases/download/harvester-upgrade-manager-1.9.0-dev.0/harvester-upgrade-manager-1.9.0-dev.0.tgz
+    version: 1.9.0-dev.0
   harvester-vm-import-controller:
   - apiVersion: v2
     appVersion: v1.7.0-rc2
@@ -166,6 +184,18 @@ entries:
     version: 1.7.0-rc2
   kubeovn-operator:
   - apiVersion: v2
+    appVersion: v1.15.4-dev.1
+    created: "2026-04-27T07:47:27.705658228Z"
+    description: A Helm chart for kubeovn-operator
+    digest: ed5ba988174ad1cebe511df27f71cace0d7761d2d92437beb962d55d62f6d323
+    maintainers:
+    - name: harvester
+    name: kubeovn-operator
+    type: application
+    urls:
+    - https://github.com/w13915984028/harvester-charts/releases/download/kubeovn-operator-1.15.4-dev.1/kubeovn-operator-1.15.4-dev.1.tgz
+    version: 1.15.4-dev.1
+  - apiVersion: v2
     appVersion: v1.14.10-dev.0
     created: "2025-11-17T14:07:11.786804423Z"
     description: A Helm chart for kubeovn-operator
@@ -178,6 +208,18 @@ entries:
     - https://github.com/w13915984028/harvester-charts/releases/download/kubeovn-operator-1.14.10-dev.0/kubeovn-operator-1.14.10-dev.0.tgz
     version: 1.14.10-dev.0
   kubeovn-operator-crd:
+  - apiVersion: v2
+    appVersion: v1.15.4-dev.1
+    created: "2026-04-27T07:47:27.829854577Z"
+    description: A Helm chart for kubeovn-operator crds
+    digest: 8505e308d1564fff6421a7d27dc220b8a85e6a713b062cc69d260a2f2ffc0b42
+    maintainers:
+    - name: harvester
+    name: kubeovn-operator-crd
+    type: application
+    urls:
+    - https://github.com/w13915984028/harvester-charts/releases/download/kubeovn-operator-crd-1.15.4-dev.1/kubeovn-operator-crd-1.15.4-dev.1.tgz
+    version: 1.15.4-dev.1
   - apiVersion: v2
     appVersion: v1.14.10-dev.0
     created: "2025-11-17T14:07:12.03607864Z"
@@ -203,4 +245,4 @@ entries:
     urls:
     - https://github.com/w13915984028/harvester-charts/releases/download/nvidia-driver-runtime-1.7.0-rc2/nvidia-driver-runtime-1.7.0-rc2.tgz
     version: 1.7.0-rc2
-generated: "2025-11-17T14:07:12.278336138Z"
+generated: "2026-04-27T07:47:27.829873062Z"
